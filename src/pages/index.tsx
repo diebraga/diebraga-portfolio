@@ -8,7 +8,6 @@ import Layout from "../components/layout"
 import { Button } from "../components/ui"
 
 import ItemPortfolio from "../components/item-portfolio"
-import ItemBlog from "../components/item-blog"
 import { Form, Description as ContactDescription } from "../components/contact"
 import { IndexPageQuery } from "./__generated__/IndexPageQuery"
 
@@ -23,9 +22,6 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
         />
     ))
 
-    const blogList = data.blog.edges.map(item => (
-        <ItemBlog data={item.node} key={`b-item-index-${item.node.id}`} />
-    ))
 
     return (
         <Layout
@@ -42,7 +38,6 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
             <div className="px-4 lg:px-0" id="portfolio">
                 {portfolioList}
             </div>
-            <Blog>{blogList}</Blog>
             <Contact data={siteData.contact} />
         </Layout>
     )

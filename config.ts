@@ -37,45 +37,26 @@ const siteMetadata = {
     ],
     footerLinks: [
         {
-            name: "PRIVACY POLICY",
-            url: "/privacy-policy",
-        },
-        {
             name: "GitHub",
             url: "https://github.com/akzhy/gatsby-starter-elemental",
         },
     ],
     social: [
         {
-            name: "Facebook",
-            icon: "/images/Facebook.svg",
-            url: "#",
-        },
-        {
-            name: "Twitter",
-            icon: "/images/Twitter.svg",
-            url: "#",
-        },
-        {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "#",
-        },
-        {
-            name: "Youtube",
-            icon: "/images/Youtube.svg",
             url: "#",
         },
     ],
     contact: {
         // leave empty ('') or false to hide form
-        api_url: "https://getform.io/f/f227a36e-096a-4c6a-9963-9f1918a85bb3",
+        api_url: false,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation",
+        mail: "diebraga.developer@gmail.com",
+        phone: "+353 833414052",
+        address: "Limerick, Ireland",
     },
-    disqus: "elemental-netlify-com",
+    disqus: "",
 }
 
 const beforeContactFormSubmit = data => {

@@ -8,7 +8,7 @@
 // ====================================================
 
 export interface ContactQuery_site_siteMetadata_contact {
-  api_url: string | null;
+  api_url: boolean | null;
   description: string | null;
   mail: string | null;
   phone: string | null;
