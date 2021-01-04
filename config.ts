@@ -4,14 +4,14 @@ const siteMetadata = {
     capitalizeTitleOnHome: false,
     logo: `/images/fox1.png`,
     icon: `/images/fox1.png`,
-    titleImage: `/images/diebraga.png`,
-    ogImage: `/images/diebraga.png`,
+    titleImage: `/images/die.png`,
+    ogImage: `/images/die.png`,
     twoColumnWall: true,
     cookiePolicy: true,
     introTag: `Full Stack Software Engineer`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+    description: `Computer guy who loves learning new stuff and building things for the web 😎.`,
     about:
-        "Cras accumsan a lectus at tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus elementum dapibus dictum. Mauris auctor quam nec est tincidunt hendrerit. Donec pulvinar lobortis mauris. Cras vulputate ullamcorper ligula a rhoncus. Nunc venenatis elementum ligula in semper. Mauris malesuada purus nunc, et ultricies leo aliquam ac. Ut sit amet nunc id magna accumsan hendrerit in eget metus.",
+        "",
     author: `@dieberaga`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -21,10 +21,6 @@ const siteMetadata = {
         {
             name: "HOME",
             url: "/",
-        },
-        {
-            name: "ABOUT",
-            url: "/about",
         },
         {
             name: "PORTFOLIO",
@@ -38,24 +34,24 @@ const siteMetadata = {
     footerLinks: [
         {
             name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental",
+            url: "https://github.com/diebraga/diebraga-portfolio",
         },
     ],
     social: [
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "#",
-        },
-        {
-            name: "Github",
-            icon: "/images/git1.png",
-            url: "#",
+            url: "https://www.instagram.com/diebraga",
         },
         {
             name: "Linkedin",
             icon: "/images/in.png",
-            url: "#",
+            url: "https://www.linkedin.com/in/diebraga",
+        },
+        {
+            name: "Github",
+            icon: "/images/git1.png",
+            url: "https://github.com/diebraga",
         },
     ],
     contact: {

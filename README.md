@@ -1,11 +1,4 @@
-# Gatsby Starter Elemental
-
-![](https://img.shields.io/badge/version-2.1.2-green.svg) ![](https://img.shields.io/badge/License-MIT-orange.svg)
-
-
-Elemental is a portfolio template suitable for artists, photographers, designers etc. With the starter you can create blog, portfolio and miscellaneous posts (such as privacy-policy).
-
-**[Live Demo](https://elemental.netlify.app)** 
+**[Live Demo](https://diebraga-portfolio.vercel.app/)** 
 
 ## Getting Started.
 
@@ -14,7 +7,7 @@ You will need node and [Gatsby](https://www.gatsbyjs.org/tutorial/part-zero/) in
 Start the project by 
 
 ```
-gatsby new project-name https://github.com/akzhy/gatsby-starter-elemental
+git clonme this repo
 cd project-name
 gatsby develop
 ```
@@ -101,47 +94,13 @@ const siteMetadata = {
     contact: {
         api_url: "https://getform.io/f/f227a36xxxxxx", // leave empty ('') or false to hide form
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
+        mail: "...",
+        phone: "...",
+        address: "..."
     },
     disqus: `your-disqus-shortname`  // Optional, remove this if you don't use disqus
 }
 
-```
-
-#### Creating new blog posts.
-
-Open the `contents/blog` folder and create a new folder with the name you wish to see as the URL. Inside the folder create an `index.md` file and also include any files you wish to add.
-
-The frontmatter should be of the below structure
-
-```
----
-title: Title of your post
-date: 2019-06-29 <-- Date should be in the given format
-image: ./image.jpg <-- Image shown on the list pages and also used as open graph image
-banner: ./banner.jpg <-- Banner shown in the blog post
-description: The description shown in the listing page. Also used for SEO description. 
----
-```
-
-If you don't want the blog section, simply delete everything inside the `contents/blog` folder. (Do not delete the folder itself)
-
-#### Creating new portfolio posts.
-
-Open the `contents/portfolio` folder and create a new folder with the name you wish to see as the URL. Inside the folder create an `index.md` file and also include any files you wish to add.
-
-The frontmatter should be of the below structure
-
-```
----
-title: Title of your post
-date: 2019-06-29 <-- Date should be in the given format
-banner: ./banner.jpg <-- Banner shown in the portfolio post and also used as open graph image
-image: ./image.jpg <-- Image shown on the list pages 
-description: The description shown in the listing page. Also used for SEO description. 
----
 ```
 
 Portfolio pages support the creation of grids.
@@ -177,7 +136,6 @@ image: ./image.jpg <-- Image  used as open graph image
 description: The description used for SEO. 
 ---
 ```
-
 ### Contact Form
 
 The contact form will appear only if you have provided an api url. You can control the data sent to the server and can execute callback functions on response from the server.
@@ -234,9 +192,6 @@ You can also handle how data is sent to the server by editing the `contactFormSu
 }
 ```
 
-## Contributing
-
-Any kind of contributions are welcome. Bump the version and create a PR.
 
 
 
