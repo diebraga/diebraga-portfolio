@@ -43,7 +43,7 @@ export default function() {
                     </ul>
                 </div>
                 <p className="text-color-default text-lg">
-                    Copyright &copy; {query.site.siteMetadata.title}{" "}
+                    {query.site.siteMetadata.title}{" "}
                     {new Date().getFullYear()}
                 </p>
             </div>

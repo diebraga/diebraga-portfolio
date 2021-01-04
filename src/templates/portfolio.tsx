@@ -33,7 +33,7 @@ export default function porfolio ({ location, data }: PageProps<PortfolioQuery, 
                                 {data.mdx.frontmatter.title}
                             </h1>
                             <p className="mt-1 flex items-center justify-center">
-                                <Calendar />{" "}
+                                {" "}
                                 <span className="ml-2">
                                     {data.mdx.frontmatter.date}
                                 </span>
