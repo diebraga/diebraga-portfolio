@@ -9,7 +9,7 @@ const siteMetadata = {
     twoColumnWall: true,
     cookiePolicy: true,
     introTag: `Full Stack Software Engineer`,
-    description: `Computer guy who loves learning new stuff and building things for the web 😎.`,
+    description: `Computer guy who loves learning new stuff and building things for the web 😎 click in "see works" down bellow or "portfolio" in the navbar to browse my personal projects.`,
     about:
         "",
     author: `@dieberaga`,
@@ -57,7 +57,7 @@ const siteMetadata = {
     contact: {
         // leave empty ('') or false to hide form
         api_url: false,
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+        description: `Did you like my work? Awesome drop me an email or check my social media ☺.`,
         mail: "diebraga.developer@gmail.com",
         phone: "+353 833414052",
         address: "Limerick, Ireland",
