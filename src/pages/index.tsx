@@ -9,6 +9,7 @@ import { Button } from "../components/ui"
 
 import ItemPortfolio from "../components/item-portfolio"
 import { Form, Description as ContactDescription } from "../components/contact"
+import Timeline from "../components/timeline"
 import { IndexPageQuery } from "./__generated__/IndexPageQuery"
 
 export default ({ data, location }: PageProps<IndexPageQuery>) => {
@@ -35,6 +36,7 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
         >
             <Wall data={siteData} />
             {siteData.about !== "" && <About data={siteData.about} />}
+            <Timeline />
             <div className="px-4 lg:px-0" id="portfolio">
                 {portfolioList}
             </div>
